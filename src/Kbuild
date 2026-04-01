@@ -1,0 +1,3 @@
+obj-m += mfd_demo.o
+
+mfd_demo-y := mfd_demo_parent.o mfd_demo_child_one.o mfd_demo_child_two.o
